@@ -1,0 +1,38 @@
+body {
+    background-color: #2E2E2E; /* Ciemne tło */
+    color: #FF69B4; /* Jasnoróżowy kolor tekstu */
+    font-family: Arial, sans-serif; /* Czcionka */
+    text-align: center; /* Wyśrodkowanie tekstu */
+}
+
+.container {
+    max-width: 600px; /* Maksymalna szerokość kontenera */
+    margin: auto; /* Wyśrodkowanie kontenera */
+    padding: 20px; /* Padding wewnętrzny */
+}
+
+h1 {
+    font-size: 48px; /* Rozmiar nagłówka */
+    margin-bottom: 20px; /* Odstęp poniżej nagłówka */
+}
+
+label, select, button {
+    font-size: 24px; /* Rozmiar tekstu dla etykiety, selecta i przycisku */
+    margin-bottom: 20px; /* Odstęp poniżej elementów */
+    display: block; /* Wyświetlanie jako blok */
+}
+
+#word-list {
+    list-style-type: none; /* Usunięcie punktów z listy */
+    padding: 0; /* Usunięcie paddingu */
+}
+
+#word-list li {
+    font-size: 32px; /* Rozmiar słów */
+    margin: 10px 0; /* Odstępy między słowami */
+}
+
+#timer, #score {
+    font-size: 36px; /* Rozmiar tekstu dla timera i wyniku */
+    margin: 20px 0; /* Odstępy */
+}

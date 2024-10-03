@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARTY TIME</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Upewnij się, że masz plik styles.css -->
+</head>
+<body>
+    <div class="container">
+        <h1>PARTY TIME</h1>
+        <label for="category">Wybierz kategorię:</label>
+        <select id="category">
+            <option value="slowa">Słowa</option>
+            <option value="postacie">Postacie</option>
+            <option value="rymy">Rymy</option>
+            <option value="pantomima">Pantomima</option>
+            <option value="abc">ABC</option>
+        </select>
+        <button onclick="startGame()">Rozpocznij Grę</button>
+        
+        <div id="timer">60</div>
+
+        <ul id="word-list"></ul>
+        <audio id="end-sound" src="syrena-7.mp3" preload="auto"></audio>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
